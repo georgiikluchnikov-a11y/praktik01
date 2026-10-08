@@ -10,10 +10,10 @@
     <packaging>pom</packaging>
 
     <name>praktik-01</name>
-    <description>Practical work: UI autotests for the-internet.herokuapp.com (Selenium + TestNG)</description>
+    <description>Practical work: UI autotests for practice.expandtesting.com (Selenium + TestNG)</description>
 
     <modules>
-        <module>HerokuApp_UI_Autotests</module>
+        <module>ui-autotests</module>
     </modules>
 
     <properties>

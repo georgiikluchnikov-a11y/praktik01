@@ -29,7 +29,7 @@ Selenium WebDriver, TestNG и паттерна Page Object.
 ```text
 praktik-01/
 ├── pom.xml                              # агрегатор (parent) для всех модулей
-├── HerokuApp_UI_Autotests/
+├── ui-autotests/
 │   ├── pom.xml                          # модуль с тестами
 │   ├── testng.xml                       # TestNG suite
 │   ├── REPORT_TEMPLATE.md               # шаблон отчёта по практической работе
@@ -76,14 +76,14 @@ mvn test -DbaseUrl=https://example.com
 Запуск внутри модуля работает так же:
 
 ```bash
-cd HerokuApp_UI_Autotests
+cd ui-autotests
 mvn clean test
 ```
 
 ## Отчёты
 
-- Surefire HTML/XML-отчёты: `HerokuApp_UI_Autotests/target/surefire-reports/`
-- Результаты Allure: `HerokuApp_UI_Autotests/target/allure-results/`
+- Surefire HTML/XML-отчёты: `ui-autotests/target/surefire-reports/`
+- Результаты Allure: `ui-autotests/target/allure-results/`
 - Локальный отчёт Allure: `mvn allure:serve` (нужен установленный Allure CLI)
 
 ## Реализованные сценарии
