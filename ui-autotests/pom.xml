@@ -11,9 +11,9 @@
         <relativePath>../pom.xml</relativePath>
     </parent>
 
-    <artifactId>herokuapp-ui-autotests</artifactId>
-    <name>HerokuApp UI Autotests</name>
-    <description>UI autotests (Page Object + Selenium + TestNG) for the-internet.herokuapp.com</description>
+    <artifactId>ui-autotests</artifactId>
+    <name>UI Autotests</name>
+    <description>UI autotests (Page Object + Selenium + TestNG) for practice.expandtesting.com</description>
 
     <dependencies>
         <dependency>
