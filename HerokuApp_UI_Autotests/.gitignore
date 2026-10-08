@@ -1,0 +1,14 @@
+target/
+.idea/
+*.iml
+.classpath
+.project
+.settings/
+
+# Allure
+allure-results/
+allure-report/
+
+# Логи
+*.log
+.DS_Store
