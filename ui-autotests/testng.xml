@@ -11,6 +11,7 @@
             <class name="tests.InputsTest"/>
             <class name="tests.NotificationMessagesTest"/>
             <class name="tests.SortableDataTablesTest"/>
+            <class name="tests.BackupLocatorsTest"/>
         </classes>
     </test>
 </suite>
