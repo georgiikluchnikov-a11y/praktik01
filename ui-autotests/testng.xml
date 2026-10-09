@@ -1,6 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
 <suite name="Practice ExpandTesting UI Tests" verbose="1">
+    <listeners>
+        <listener class-name="utils.RetryAnnotationTransformer"/>
+    </listeners>
     <test name="All UI tests">
         <classes>
             <class name="tests.AddRemoveElementsTest"/>
@@ -11,6 +14,7 @@
             <class name="tests.InputsTest"/>
             <class name="tests.NotificationMessagesTest"/>
             <class name="tests.SortableDataTablesTest"/>
+            <class name="tests.BackupLocatorsTest"/>
         </classes>
     </test>
 </suite>
