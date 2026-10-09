@@ -1,0 +1,36 @@
+# ---------- Maven ----------
+target/
+pom.xml.tag
+pom.xml.releaseBackup
+pom.xml.versionsBackup
+pom.xml.next
+release.properties
+dependency-reduced-pom.xml
+buildNumber.properties
+
+# ---------- IntelliJ IDEA ----------
+.idea/
+*.iml
+*.ipr
+*.iws
+out/
+
+# ---------- Eclipse / Maven integration ----------
+.classpath
+.project
+.settings/
+.factorypath
+.apt_generated
+
+# ---------- Allure ----------
+allure-results/
+allure-report/
+
+# ---------- Логи ----------
+*.log
+
+# ---------- OS / редакторы ----------
+.DS_Store
+Thumbs.db
+.vscode/
+*.swp
